@@ -1,0 +1,35 @@
+<div class="hip" *ngFor="let v of single">
+  <img class="kl" src="{{ v.img }}" />
+  <h1>{{ v.sub_id }}</h1>
+  <p>{{ v.desc }}</p>
+
+  <!-- <h4><b>Key Ingredients:</b>{{ v.inc }}</h4> -->
+
+  <h2 class="lk"><b>Rating : </b>{{ v.rating }}</h2>
+  <h2 class="l"><b>price : </b>{{ v.price }}</h2>
+  <p class="c">🕓 Use code WELCOME50 (limited time offer)</p>
+
+  <img class="v" src="{{ v.pic }}" alt="" /><br />
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button class="btn btn-primary" type="button" routerLink="/form">Order Now</button>
+    <button class="btn btn-primary" type="button">Add To Cart</button>
+  </div>
+  <br /><br /><br />
+</div>
+
+<!-- <div class="pk">
+<div class="card mb-3"  *ngFor="let v of single">
+  <img src="{{ v.img }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title">{{v.sub_id}}</h2>
+    <p class="card-text">{{v.desc}}</p>
+    <h3><b>price :</b>{{v.price}}</h3>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">Button</button>
+      <button class="btn btn-primary" type="button">Button</button>
+    </div>
+  </div>
+</div>
+</div> -->

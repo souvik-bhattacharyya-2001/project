@@ -1,0 +1,54 @@
+#form{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    border: 2px solid black;
+  
+}
+#hp{
+    text-align: center;
+}
+#myForm{
+    padding: 50px;
+    background-color: rgb(225, 244, 250) ;
+}
+#submit{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+.uj{
+    border-radius: 50%;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],select{
+    width: 200px;
+    border: 2px solid black;
+}
+#email{
+margin-left: 15%;
+}
+#phone{
+    margin-left: 2%;
+}
+#address{
+    margin-left: 16%;
+}
+#code{
+    margin-left: 23%;
+}
+#submit {
+    background-color: blue;
+    color: white;
+    /* width: 100px;
+      text-align: center;
+     justify-content: center; */
+    width: 300px;
+    margin: 30px 27%;
+    padding: 5px;
+    position: relative;
+    left: -50px;
+  }

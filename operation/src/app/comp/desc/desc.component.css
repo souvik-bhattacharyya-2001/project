@@ -1,0 +1,54 @@
+.hip{
+  background-color: rgb(249, 253, 254) ;
+    text-align: center;
+}
+.kl{
+    border: 3px solid black;
+    border-radius: 40px;
+    width: 400px;
+}
+.btn {
+    background-color: black;
+}
+.btn:hover{
+    border: 2px solid white;
+
+}
+/* .card-img-top{
+    border: 3px solid black;
+    border-radius: 10%;
+    width: 400px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+} */
+.c{
+    font-size: 40px;
+    font-style: italic;
+    animation: blinking 5s linear infinite;
+}
+@keyframes blinking {
+    0% {
+      color: blue;
+    }
+    30%{
+      color:transparent
+    }
+    50% {
+      color: red;
+    }
+    80%{
+      color: transparent;
+    }
+    100% {
+      color: blue;
+    }
+  }
+  /* .v{
+    border-radius: 50%;
+  } */
+  .l{
+    padding-right: 11%;
+  }

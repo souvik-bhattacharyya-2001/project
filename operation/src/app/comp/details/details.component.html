@@ -1,0 +1,88 @@
+<!-- <div class="sub-container">
+    <h1>product : {{kip[0].prod_name}}</h1>
+    <div *ngFor="let data of kip[0].sub_prod">
+        <h1>{{data.sub_id}}</h1>
+        <a routerLink="/desc/{{kip[0].prod_id}}/{{data.sub_id}}">
+            <button>Details</button>
+        </a>
+    </div>
+</div> -->
+<!-- <router-outlet></router-outlet> -->
+
+<div id="gf">
+<div id="k">
+  <app-search (val)="onSearchTextEnter($event)"></app-search>
+</div>
+
+
+  
+
+
+
+<div id="xv">
+  <div id="tom">
+    <img  class="xz" src="assets/map.webp" alt="map"><br>
+   <h3 id="cd"> {{kip[0].prod_name}}</h3>
+    
+  </div><br>
+  <p id="xvv">Available Foods : </p>
+  <div id="gp">
+  <div    *ngFor="let data of kip[0].sub_prod">
+  <div class="card" style="width: 18rem;" *ngIf="
+  searchchedText === '' || data.sub_id.toLowerCase().includes(searchchedText.toLowerCase())
+">
+    <img src={{data.img}} class="card-img-top" alt="logo5" routerLink="/desc/{{kip[0].prod_id}}/{{data.sub_id}}" >
+    <div class="card-body">
+      <h5 class="card-title">{{data.sub_id}}</h5>
+      <p class="rap">{{data.rating}}</p>
+      <p class="price">₹{{data.price}}</p>
+      <p class="offer">50% off up to ₹100 | Use code WELCOME50</p>
+      
+      <!-- <p class="card-text">If You Are Interested To Know More About Of This Food Please Click This Details Button </p> -->
+      <!-- <a routerLink="/desc/{{kip[0].prod_id}}/{{data.sub_id}}" class="btn btn-primary">Check Your Orders </a> -->
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- <div class="ix"  *ngFor="let data of kip[0].sub_prod">
+  <div class="x" *ngIf="searchchedText === '' || data.sub_id.toLowerCase().includes(searchchedText)">
+    <img src="{{data.img}}" class="card-img-top" alt="logo5"  routerLink="/desc/{{kip[0].prod_id}}/{{data.sub_id}}" >
+    <div class="card-body">
+      <h5 class="card-title">{{data.sub_id}}</h5>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+<!-- <div class="i" *ngFor="let data of kip[0].sub_prod">
+  <img src="{{data.img}}" class="vfx" alt="logo5">
+  <div class="j">
+    <a routerLink="/desc/{{kip[0].prod_id}}/{{data.sub_id}}">
+      <img src="{{data.img}}" class="vfx" alt="logo5"><br>
+    
+    </a>
+    
+    <h5 class="card-title">{{data.sub_id}}</h5>
+   
+  
+  </div>
+</div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+

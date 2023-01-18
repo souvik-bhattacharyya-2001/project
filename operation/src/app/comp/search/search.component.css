@@ -1,0 +1,24 @@
+/* #pp{
+    padding: 10px;
+    margin: 6px;
+    border: 4px solid black;
+    width: 300px;
+    border-radius: 10px;
+    background-color: lightgrey;
+   
+}
+#ip{
+    background-color: green;
+    width: 100px;
+    padding: 15px;
+    border: 3px solid green;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+}
+#ip:hover{
+    background-color: lightseagreen;
+} */
+#ser{
+   position: right;
+}

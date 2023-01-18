@@ -1,0 +1,70 @@
+#xx{
+ 
+    display: flex;
+    column-gap: 70px;
+    margin-left: 50px;
+    padding: 40px;
+
+    
+    
+}
+.card-img-top{
+    height: 250px;
+}
+.c{
+  height: 450px;
+}
+
+
+/* #ip{
+    background-color: lightblue;
+} */
+/* h1{
+    font-size: 100px;
+    font-style: italic;
+    animation: blinking 5s linear infinite;
+}
+@keyframes blinking {
+    0% {
+      color: blue;
+    }
+    30%{
+      color:transparent
+    }
+    50% {
+      color: red;
+    }
+    80%{
+      color: transparent;
+    }
+    100% {
+      color: blue;
+    }
+  } */
+  p{
+    color: blue;
+  }
+.card:hover{
+    /* border: 3px solid black; */
+    background-color: yellowgreen;
+}
+.d-block {
+  opacity: 0.8;
+  size:8px;
+}
+#vc{
+  padding-right: 35%;
+  padding-left: 39%;
+  
+}
+#pic{
+  text-align: center;
+}
+
+/* .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   font-size: 70px;
+  } */

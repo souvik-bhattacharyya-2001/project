@@ -1,0 +1,13 @@
+<!-- <div id="ser">
+
+<input type="text" name="pp" id="pp" [(ngModel)]="enteredSearchValue "
+(input)="onSearchTextChange()" placeholder="Search"><button id="ip">search</button>
+</div> -->
+
+
+
+<div class="d-flex" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"  [(ngModel)]="enteredSearchValue "
+    (input)="onSearchTextChange()">
+    <button class="btn btn-outline-success" type="submit"  >Search</button>
+</div>
