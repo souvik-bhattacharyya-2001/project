@@ -4,10 +4,11 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #007b5c;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+--color: #007b5e;
 #footer {
     background: #007b5e !important;
 }
